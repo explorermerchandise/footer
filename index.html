@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Footer Design</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+
+	  
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;/*  */
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 10/*  */0px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+
+.a{
+    color: blue;
+    border-radius: 20px;
+    font-size:30px ;
+    padding-left: 30px;
+}
+.b{
+    color: rgb(77, 195, 235);
+    font-size:30px ;
+    padding-left: 30px;
+}
+.c{
+    color: #E1306C;
+    font-size:30px ;
+    padding-left: 30px;
+}
+.d{
+    color: red;
+    font-size:30px ;
+    padding-left: 30px;
+}
+
+
+.content button {
+  color: white;
+  font-size: 20px;
+  
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  background: rgb(255, 0, 0);
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0px 3px 3px 3px rgb(167, 167, 167);
+}
+
+.content button:focus {
+  background: rgb(221, 218, 218);
+  color: rgb(92, 91, 91);
+}
+
+  </style>
+</head>
+<body>
+
+  <footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>Quick Items</h4>
+  	 			<ul>
+  	 				<li><a href="#">Home</a></li>
+  	 				<li><a href="#">Boys</a></li>
+  	 				<li><a href="#">Girls</a></li>
+  	 				<li><a href="#">Schools</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Contact Us</h4>
+  	 			<ul>
+  	 				<li><a href="#">Phone No</a></li>
+  	 				<li><a href="#">Email</a></li>
+  	 				<li><a href="#">Address</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Social Links</h4>
+  	 			<ul>
+  	 				<li><a href="#"><i class="fa-brands fa-square-facebook a"></i> </a></li> 
+  	 				<li><a href="#"><i class="fa-brands fa-twitter b"></i></a></li>
+  	 				<li><a href="#"><i class="fa-brands fa-instagram c"></i></a></li>
+  	 				<li><a href="#"><i class="fa-brands fa-youtube d"></i></a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+    
+                    <div class="content">
+                      <button type="button">SUBSCRIBE</button>
+                    </div>  
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
+
+</body>
+</html>
